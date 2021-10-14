@@ -10,13 +10,13 @@ Example message:
 Send frequency: 8 per second
 Content:
 
-Byte No. | example | description
--------- | ------- | -----------
+Byte No. | example | description | version 2020
+-------- | ------- | ----------- | ------------
 1 | 0x43 | Start-Byte
 2 | 0x00 | [Battery level](#battery-level)
 3 | 0x01 | [Motor status flags](#motor-status-flags)
-4 | 0x51 | [Pedal torque-sensor "tara" value](#pedal-torque)
-5 | 0x51 | [Pedal torque-sensor actual value](#pedal-torque)
+4 | 0x51 | [Pedal torque-sensor "tara" value](#pedal-torque) | [Pedal torque-sensor actual value](#pedal-torque)
+5 | 0x51 | [Pedal torque-sensor actual value](#pedal-torque) | Cadence
 6 | 0x00 | [Error code](#error-code)
 7 | 0x07 | [Speedsensor (LOW part of 16bit int)](#speed)
 8 | 0x07 | [Speedsensor (HIGH part of 16bit int)](#speed)
